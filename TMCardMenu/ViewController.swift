@@ -60,8 +60,6 @@ class ViewController: UIViewController {
             let gesture = UITapGestureRecognizer(target: self, action: #selector(ViewController.viewTap(_:)))
             v.addGestureRecognizer(gesture)
         }
-        btnMenu.layer.cornerRadius = btnMenu.frame.width / 2
-        btnMenu.layer.masksToBounds = true
     }
     
     func maximizeView(_ tag: Int) {
