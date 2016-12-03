@@ -12,4 +12,4 @@ App
 
 Storyboard
 
-![alt tag](https://raw.githubusercontent.com/dstarsboy/TMCardMenu/master/4.png)
+![alt tag](https://raw.githubusercontent.com/dstarsboy/TMCardMenu/master/3.png)
