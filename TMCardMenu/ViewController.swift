@@ -93,7 +93,7 @@ class ViewController: UIViewController {
         btnMenu.setTitle("=", for: UIControlState())
     }
     
-    func viewTap(_ sender: UITapGestureRecognizer) {
+    @objc func viewTap(_ sender: UITapGestureRecognizer) {
         maximizeView(sender.view!.tag)
     }
     
@@ -131,7 +131,7 @@ class ViewController: UIViewController {
                 top.constant = positionY
                 animationDelay += 0.1
                 counter += 1
-                UIView.animate(withDuration: 0.8, delay: animationDelay, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: [], animations: {
+                UIView.animate(withDuration: 0.6, delay: animationDelay, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: [], animations: {
                     self.view.layoutIfNeeded()
                     }, completion: { completed in
                         if counter == self.constraintViews.count {
